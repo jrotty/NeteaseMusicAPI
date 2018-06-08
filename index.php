@@ -1,5 +1,5 @@
 <?php
-header("Content-type: text/javascript; charset=utf-8");
+header('Content-type:text/json');
 if (empty($_GET['id']) || empty($_GET['type']))
 	exit;
 
